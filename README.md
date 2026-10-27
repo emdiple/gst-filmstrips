@@ -1,4 +1,4 @@
-# gst-playground — filmstrips with GStreamer
+# gst-filmstrips
 
 Builds filmstrip (sprite) sheets from a video with GStreamer and Go, as a
 replacement for the production ffmpeg command. One decode writes three sheet
@@ -32,8 +32,8 @@ go run . -input video.mp4 -out gst-filmstrip
 Or build once and run the binary:
 
 ```bash
-go build -o gst-playground .
-./gst-playground -input video.mp4
+go build -o gst-filmstrips .
+./gst-filmstrips -input video.mp4
 ```
 
 Each run prints the duration, the sampling rate, how each sample was obtained,

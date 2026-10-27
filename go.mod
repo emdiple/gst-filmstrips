@@ -1,4 +1,4 @@
-module gst-playground
+module gst-filmstrips
 
 go 1.27.1
 
