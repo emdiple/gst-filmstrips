@@ -1,0 +1,11 @@
+# Build output
+/gst-playground
+
+# Generated filmstrips
+/gst-filmstrip/
+/ff-filmstrip/
+
+# Sample media (large, not redistributable)
+/test-src/
+
+.DS_Store
